@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STP Broadcast Simulation (CCNA Demo)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>STP Broadcast Simulation</h1>
+    <div class="controls">
+      <button id="toggle-stp">STP: OFF</button>
+      <button id="broadcast-a">Send Broadcast from SW A</button>
+      <button id="broadcast-b">Send Broadcast from SW B</button>
+      <button id="broadcast-c">Send Broadcast from SW C</button>
+      <button id="broadcast-all">Play All Loop Broadcasts</button>
+    </div>
+    <div class="network-area">
+      <canvas id="network-canvas" width="700" height="500"></canvas>
+      <div id="label-a" class="device-label">Switch Device A</div>
+      <div id="label-b" class="device-label">Switch Device B</div>
+      <div id="label-c" class="device-label">Switch Device C</div>
+    </div>
+    <div id="info" class="info"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
